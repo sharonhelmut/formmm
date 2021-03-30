@@ -1,0 +1,85 @@
+<html>
+ <head>
+  <title>Input Biodata</title>
+  <style type='text/css' >
+  #button1 {
+  padding-left:20px;
+  text-align:left;
+  }
+  #button2 {
+  padding-right:20px;
+  text-align:right;
+  }
+  #kepala {
+  font-family:algerian,snap itc;
+  font-size:25px;
+  height:50px;
+  }
+  #kaki {
+  height:30px;
+  }
+  #tabel1 {
+  background-color:dodgerblue;
+  width:410;
+  padding:10px;
+  box-shadow:black 0px 0px 4px 1px;
+  border-radius:20px 20px 20px 20px;
+  }
+  #tabel2 {
+  background-color:dodgerblue;
+  padding:10px;
+  box-shadow:black 0px 0px 4px 1px;
+  border-radius:20px 0px 20px 0px;
+  }
+  #tabel1_isi {
+  background-color:black;
+  color:white;
+  width:400; height:200;
+  padding:5px;
+  }
+  </style>
+  <center>
+  <body bgcolor='cornflowerblue'>
+   <br/>
+    <form action='index.jsp' method='get'>
+   <table id='tabel1' align='center' border='0' >
+    <tr id='kepala'>
+     <th colspan='2' id='kepala'>FORM BIODATA SISWA</th>
+    </tr>
+    <tr>
+     <td colspan='2'>
+        <table align='center' id='tabel1_isi' border='0'>
+            <tr>
+            <td id='kolom1'>NIS :</td>
+            <td><input type='text' name='nis' size='10' required></td>
+            </tr>
+            <tr>
+            <td id='kolom1'>Nama :</td>
+            <td><input type='text' name='nama' size='hobi0' required></td>
+            </tr>
+            <tr>
+            <td id='kolom1'>Alamat :</td>
+            <td><input type='text' name='alamat' size='hobi0' required></td>
+            </tr>
+            <tr>
+            <td id='kolom1'>No. Telp :</td>
+            <td><input type='text' name='no_telp' size='hobi0' required></td>
+            </tr>
+            <tr>
+            <td id='kolom1'>Hobi :</td>
+            <td><input type='text' name='hobi' size='hobi0' required></td>
+            </tr>
+        </table>
+     </td>
+    </tr>
+    <tr id='kaki'>
+     <td id='button1'>
+     <input type='submit' value='proses'/>
+     </td>
+     <td id='buttonhobi'>
+     <input type='reset' value='clear'/>
+     </center>
+     </td>
+    </tr>
+    </div>
+   </table>
